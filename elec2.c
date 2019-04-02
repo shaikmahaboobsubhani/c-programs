@@ -21,12 +21,13 @@ int main()
     }
     else if(unit <= 300)
     {
-        amt = 100 + ((unit-200) * 0.65);
+        amt = 100 + ((unit-200) * 0.70);
     }
     else  (unit > 300)
     {
-        amt = 200 + ((unit-300) * 0.70);
+        amt = 200 + ((unit-400) * 0.80);
     }
+   
 
     /*
      * Calculate total electricity bill
